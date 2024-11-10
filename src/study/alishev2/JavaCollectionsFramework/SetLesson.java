@@ -97,6 +97,7 @@ public class SetLesson {
         Set<Integer> difference = new HashSet<>(set1);
         difference.removeAll(set2);
         System.out.println(difference); // [0, 1]
+        System.out.println("=============");
 
 
 
