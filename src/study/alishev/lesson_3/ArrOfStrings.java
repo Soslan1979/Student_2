@@ -10,7 +10,7 @@ public class ArrOfStrings {
         strings[1] = "world";
         strings[2] = "WOW!";
         System.out.println(Arrays.toString(strings));
-        for(String string:strings) {  // for each String-тип данных / string-имя переменной / strings-имя массива
+        for(String string:strings) {  // for each String-тип данных / string-имя переменной, можно любое имя/ strings-имя массива
             System.out.println(string);
         }
         for(String string:strings2) {  // for each String-тип данных / string-имя переменной / strings-имя массива

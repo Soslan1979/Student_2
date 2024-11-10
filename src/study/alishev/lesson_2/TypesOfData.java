@@ -6,6 +6,8 @@ public class TypesOfData {
         char sim = 'w'; // примитивный
         String string = new String("Hello"); // ссылочный
         String string_2 = " world!";
+        System.out.println(num + " " + sim);
         System.out.println(string + string_2);
+
     }
 }

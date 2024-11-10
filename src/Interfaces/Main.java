@@ -8,9 +8,9 @@ public class Main {
         person.sayHello();
         person.showInfo();
         animal.showInfo();
-        Info info = new Animal(101010); // т.к Animal имплементирет интерфейс Info
-        Info info2 = new Person("Nick");
-        info.showInfo();
-        info2.showInfo();
+        Info animalInfo = new Animal(101010); // т.к Animal имплементирет интерфейс Info
+        Info personInfo = new Person("Nick");
+        animalInfo.showInfo();
+        personInfo.showInfo();
     }
 }

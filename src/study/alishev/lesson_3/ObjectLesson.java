@@ -2,9 +2,13 @@ package study.alishev.lesson_3;
 
 public class ObjectLesson {
     public static void main(String[] args) {
-        Human person = new Human("Bob", 41);
-        System.out.println(person);
-        System.out.println(person.getAge());
+        Human human = new Human("Bob", 41);
+        Human human2 = new Human("Tom", 45);
+        System.out.println(human);
+        String agePrint = "Возраст: ";
+        System.out.println(agePrint + human.getAge());
+        System.out.println(human2);
+        System.out.println(agePrint + human2.getAge());
     }
 }
 

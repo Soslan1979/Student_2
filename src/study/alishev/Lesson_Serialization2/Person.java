@@ -1,8 +1,8 @@
-package study.alishev.Lesson_Serialization;
+package study.alishev.Lesson_Serialization2;
 
 import java.io.Serializable;
 
-public class Person implements Serializable { // Интерфейс Serializable(не имеет методов) позволяет записывать объекты в файл
+public class Person implements Serializable {
     private int id;
     private String name;
 

@@ -1,7 +1,7 @@
 package study.alishev.Lesson_4;
 
 public class Dog extends Animal { // Унаследованный класс от класса Animal
-    public void eat() {           // Переопределенный метод родит. класса Animal
+    public void eat() {           // Переопределенный метод родительского класса Animal
         System.out.println("Dog is eating");
     }
 

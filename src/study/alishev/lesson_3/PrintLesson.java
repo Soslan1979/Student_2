@@ -7,7 +7,5 @@ public class PrintLesson {
         System.out.printf("String %f\n", 10.12345);
         System.out.printf("String %.3f\n", 10.12345);
         System.out.printf("String %10d\n", 10);
-
-
     }
 }
